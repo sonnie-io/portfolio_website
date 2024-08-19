@@ -35,7 +35,7 @@ header {
 }
 .nav-bar ul li a {
     display: block;
-    color: #c2b9aa;
+    color: #fefefe;
     font-size: 20px;
     padding: 10px 25px;
     border-radius: 50px;
@@ -44,7 +44,7 @@ header {
 }
 .nav-bar ul li a:hover {
     color: #c2b9aa;
-    background: #fefefe;
+    background: #000;
 } 
 .nav-bar ul li a.active {
     color:#000;
