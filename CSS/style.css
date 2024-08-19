@@ -35,7 +35,8 @@ header {
 }
 .nav-bar ul li a {
     display: block;
-    color: #fefefe;
+    color: #000;
+    background-color: #c2b9aa;
     font-size: 20px;
     padding: 10px 25px;
     border-radius: 50px;
@@ -44,11 +45,11 @@ header {
 }
 .nav-bar ul li a:hover {
     color: #c2b9aa;
-    background: #000;
+    background: #fefefe;
 } 
 .nav-bar ul li a.active {
-    color:#000;
-    background: #c2b9aa;
+    color: #c2b9aa;
+    background: #000;
 }
 @media only screen and (max-width: 1320px){
     header {
