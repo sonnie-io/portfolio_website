@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv=""X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+        <title>Sonnie</title>
+        <link rel="stylesheet" href="/CSS/style.css">
+    </head>
+
+    <body>
+<!-- Navigation -->
+        <header>
+            <div class="logo">SB</div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="" class="active">HOME</a></li>
+                    <li><a href="/HTML/projects.html">PROJECTS</a></li>
+                    <li><a href="/HTML/gallery.html">GALLERY</a></li>
+                    <li><a href="/HTML/about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+
+<!-- Hero -->
+ <section class="hero-text">
+ <h1>SONNIE BOOKER</h1>
+ <p>Front-End Developer</p>
+ </section>
+
+ <section class="Gallery">
+ <h2>Gallery</h2>
+ </section>
+
+<!-- Adding Javascript -->
+<script src="/JS/script.js"></script>
+ <script>
+ hamburger = document.querySelector(".hamburger");
+hamburger.onclick = function(){
+    navBar = document.querySelector(".nav-bar");
+    navBar.classList.toggle("active");
+}
+</script>
+
+    </body>
+</html>
