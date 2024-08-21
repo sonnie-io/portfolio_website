@@ -124,7 +124,7 @@ header {
     font-style: normal;
   }
 
-  #footer {
+  .footer {
     height: 10em;
     margin-bottom: 1em;
     background-color: #c2b9aa;
