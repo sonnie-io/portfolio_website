@@ -47,7 +47,7 @@ header {
     background: #fefefe;
 } 
 .nav-bar ul li a.active {
-    color: #c2b9aa;
+    color: #fefefe;
     background: #000;
 }
 @media only screen and (max-width: 1320px){
@@ -123,3 +123,9 @@ header {
     font-weight: 400;
     font-style: normal;
   }
+
+  #footer {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #c2b9aa;
+}
